@@ -1,0 +1,21 @@
+book_id,title,processed_dir,figure_path,T_k5,T_k7,T_k11
+11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,outputs/eda/novel_stacks/figures/novel_11_alice_s_adventures_wonderland_stacked_k5_k7_k11.png,264,264,264
+16,Peter Pan,peter_pan,outputs/eda/novel_stacks/figures/novel_16_peter_pan_stacked_k5_k7_k11.png,471,471,471
+35,The Time Machine,time_machine,outputs/eda/novel_stacks/figures/novel_35_time_machine_stacked_k5_k7_k11.png,323,323,323
+36,The War of the Worlds,war_worlds,outputs/eda/novel_stacks/figures/novel_36_war_worlds_stacked_k5_k7_k11.png,599,599,599
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,strange_case_dr_jekyll,outputs/eda/novel_stacks/figures/novel_43_strange_case_dr_jekyll_stacked_k5_k7_k11.png,255,255,255
+55,The Wonderful Wizard of Oz,wonderful_wizard_oz,outputs/eda/novel_stacks/figures/novel_55_wonderful_wizard_oz_stacked_k5_k7_k11.png,395,395,395
+84,"Frankenstein; Or, The Modern Prometheus",frankenstein_modern_prometheus,outputs/eda/novel_stacks/figures/novel_84_frankenstein_modern_prometheus_stacked_k5_k7_k11.png,749,749,749
+103,Around the World in Eighty Days,around_world_eighty_days,outputs/eda/novel_stacks/figures/novel_103_around_world_eighty_days_stacked_k5_k7_k11.png,632,632,632
+113,The Secret Garden,secret_garden,outputs/eda/novel_stacks/figures/novel_113_secret_garden_stacked_k5_k7_k11.png,805,805,805
+120,Treasure Island,treasure_island,outputs/eda/novel_stacks/figures/novel_120_treasure_island_stacked_k5_k7_k11.png,685,685,685
+175,The Phantom of the Opera,phantom_opera,outputs/eda/novel_stacks/figures/novel_175_phantom_opera_stacked_k5_k7_k11.png,854,854,854
+345,Dracula,dracula,outputs/eda/novel_stacks/figures/novel_345_dracula_stacked_k5_k7_k11.png,1612,1612,1612
+521,Robinson Crusoe,robinson_crusoe,outputs/eda/novel_stacks/figures/novel_521_robinson_crusoe_stacked_k5_k7_k11.png,1208,1208,1208
+768,Wuthering Heights,wuthering_heights,outputs/eda/novel_stacks/figures/novel_768_wuthering_heights_stacked_k5_k7_k11.png,1158,1158,1158
+1184,The Count of Monte Cristo,count_monte_cristo,outputs/eda/novel_stacks/figures/novel_1184_count_monte_cristo_stacked_k5_k7_k11.png,4608,4608,4608
+1257,The Three Musketeers,three_musketeers,outputs/eda/novel_stacks/figures/novel_1257_three_musketeers_stacked_k5_k7_k11.png,2293,2293,2293
+1260,Jane Eyre,jane_eyre,outputs/eda/novel_stacks/figures/novel_1260_jane_eyre_stacked_k5_k7_k11.png,1852,1852,1852
+1342,Pride and Prejudice,pride_prejudice,outputs/eda/novel_stacks/figures/novel_1342_pride_prejudice_stacked_k5_k7_k11.png,1272,1272,1272
+1513,Romeo and Juliet,romeo_juliet,outputs/eda/novel_stacks/figures/novel_1513_romeo_juliet_stacked_k5_k7_k11.png,258,258,258
+1661,The Adventures of Sherlock Holmes,adventures_sherlock_holmes,outputs/eda/novel_stacks/figures/novel_1661_adventures_sherlock_holmes_stacked_k5_k7_k11.png,1044,1044,1044

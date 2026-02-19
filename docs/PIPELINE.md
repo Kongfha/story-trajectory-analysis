@@ -24,6 +24,11 @@
 - Produces exploratory and deeper interpretation notes.
 - Exports EDA figures/tables and insights.
 
+5. **All-Novel Stacked Panels (`04_novel_stacked_twist_signal.ipynb`)**
+- Loads per-book `signals_k{5,7,11}.npz` and `peaks_k{5,7,11}.json`.
+- Generates one 3-row stacked figure per novel (`s_t` + `a_t` for each `k`).
+- Exports grouped tables and a consolidated per-novel interpretation markdown.
+
 ## Twist Signal Definition
 Given chunk embeddings `e_t` and context window size `k`:
 
@@ -67,6 +72,9 @@ File-level flow:
 9. `outputs/clusters_kmeans.csv`, `outputs/clusters_hier.csv`
 10. `outputs/dtw_distance_k7.npy`
 11. `outputs/eda/*` from EDA notebook
+12. `outputs/eda/novel_stacks/figures/*.png`
+13. `outputs/eda/novel_stacks/tables/*.csv`
+14. `docs/NOVEL_STACKED_OUTPUT_INTERPRETATION.md`
 
 Directory keying:
 - `processed_dir` is the canonical per-book key and is based on abbreviated title slug.

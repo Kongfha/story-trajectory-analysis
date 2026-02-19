@@ -1,0 +1,9 @@
+check,expected,actual,pass
+book_count_is_20,20,20,True
+figure_count,20,20,True
+stats_rows,60,60,True
+manifest_rows,20,20,True
+highlights_rows,20,20,True
+interpretation_sections,20,20,True
+interpretation_image_links,20,20,True
+image_link_targets_exist,0,0,True

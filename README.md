@@ -39,10 +39,12 @@ Primary metadata source:
 - `01_chunk_and_embed.ipynb`: chunking + embedding + per-book processed artifacts.
 - `02_transform_and_cluster.ipynb`: Twist Signal, PCA, clustering, DTW.
 - `03_eda_and_visualization.ipynb`: EDA, visualization, and insight extraction.
+- `04_novel_stacked_twist_signal.ipynb`: all-novel stacked Twist Signal panels (`k=5,7,11`) + consolidated per-novel interpretation export.
 - `data/raw/`: cleaned book text files (abbreviated title filenames).
 - `data/processed/{processed_dir}/`: per-book chunk, embedding, signal, peak, PCA artifacts.
 - `outputs/`: global outputs (`features.csv`, cluster CSVs, DTW matrix, summary).
 - `outputs/eda/`: EDA figures, tables, and insight narrative.
+- `outputs/eda/novel_stacks/`: grouped 20-book stacked figures, supporting tables, and validation outputs.
 - `docs/`: pipeline, schema dictionary, EDA planning, and output interpretation docs.
 
 ## Pipeline Run Order
@@ -51,6 +53,7 @@ Run notebooks in this order:
 2. `01_chunk_and_embed.ipynb`
 3. `02_transform_and_cluster.ipynb`
 4. `03_eda_and_visualization.ipynb`
+5. `04_novel_stacked_twist_signal.ipynb`
 
 ## Key Outputs for EDA/Insight Work
 Core files:
@@ -64,6 +67,13 @@ Per-book files:
 - `data/processed/{processed_dir}/peaks_k{K}.json`
 - `data/processed/{processed_dir}/pca_d2.npy`
 - `data/processed/{processed_dir}/pca_d5.npy`
+
+Advanced per-novel stacked outputs:
+- `outputs/eda/novel_stacks/figures/novel_{book_id}_{processed_dir}_stacked_k5_k7_k11.png`
+- `outputs/eda/novel_stacks/tables/novel_stacked_stats.csv`
+- `outputs/eda/novel_stacks/tables/novel_stacked_manifest.csv`
+- `outputs/eda/novel_stacks/tables/novel_stacked_highlights.csv`
+- `docs/NOVEL_STACKED_OUTPUT_INTERPRETATION.md`
 
 ## Known Limitations
 - Clustering settings are baseline defaults (`n_clusters=4`) and not heavily tuned.
