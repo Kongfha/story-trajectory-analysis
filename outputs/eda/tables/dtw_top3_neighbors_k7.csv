@@ -1,0 +1,61 @@
+book_id,book_title,neighbor_rank,neighbor_book_id,neighbor_title,dtw_distance
+11,Alice's Adventures in Wonderland,1,120,Treasure Island,0.4642942249774933
+11,Alice's Adventures in Wonderland,2,1513,Romeo and Juliet,0.48312512040138245
+11,Alice's Adventures in Wonderland,3,16,Peter Pan,0.5158191323280334
+16,Peter Pan,1,120,Treasure Island,0.5117805600166321
+16,Peter Pan,2,11,Alice's Adventures in Wonderland,0.5158191323280334
+16,Peter Pan,3,1513,Romeo and Juliet,0.5512428283691406
+35,The Time Machine,1,11,Alice's Adventures in Wonderland,0.6131704449653625
+35,The Time Machine,2,16,Peter Pan,0.6392339468002319
+35,The Time Machine,3,120,Treasure Island,0.6469334959983826
+36,The War of the Worlds,1,11,Alice's Adventures in Wonderland,0.5574546456336975
+36,The War of the Worlds,2,120,Treasure Island,0.5654686093330383
+36,The War of the Worlds,3,1184,The Count of Monte Cristo,0.5684027671813965
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,1,55,The Wonderful Wizard of Oz,0.5413088202476501
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,2,1513,Romeo and Juliet,0.5643506050109863
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,3,768,Wuthering Heights,0.5775065422058105
+55,The Wonderful Wizard of Oz,1,1513,Romeo and Juliet,0.4983428418636322
+55,The Wonderful Wizard of Oz,2,120,Treasure Island,0.5084611773490906
+55,The Wonderful Wizard of Oz,3,1257,The Three Musketeers,0.528365969657898
+84,"Frankenstein; Or, The Modern Prometheus",1,120,Treasure Island,0.5942023396492004
+84,"Frankenstein; Or, The Modern Prometheus",2,1184,The Count of Monte Cristo,0.6107038855552673
+84,"Frankenstein; Or, The Modern Prometheus",3,113,The Secret Garden,0.6114523410797119
+103,Around the World in Eighty Days,1,120,Treasure Island,0.5739395022392273
+103,Around the World in Eighty Days,2,113,The Secret Garden,0.5908955931663513
+103,Around the World in Eighty Days,3,43,The Strange Case of Dr. Jekyll and Mr. Hyde,0.5967215299606323
+113,The Secret Garden,1,120,Treasure Island,0.5111984014511108
+113,The Secret Garden,2,11,Alice's Adventures in Wonderland,0.5160722136497498
+113,The Secret Garden,3,1513,Romeo and Juliet,0.5575858354568481
+120,Treasure Island,1,11,Alice's Adventures in Wonderland,0.4642942249774933
+120,Treasure Island,2,1513,Romeo and Juliet,0.4866848587989807
+120,Treasure Island,3,55,The Wonderful Wizard of Oz,0.5084611773490906
+175,The Phantom of the Opera,1,36,The War of the Worlds,0.6587458848953247
+175,The Phantom of the Opera,2,11,Alice's Adventures in Wonderland,0.6899662613868713
+175,The Phantom of the Opera,3,113,The Secret Garden,0.694258451461792
+345,Dracula,1,36,The War of the Worlds,0.6840227842330933
+345,Dracula,2,1260,Jane Eyre,0.7237975597381592
+345,Dracula,3,55,The Wonderful Wizard of Oz,0.7848553657531738
+521,Robinson Crusoe,1,120,Treasure Island,0.5996212363243103
+521,Robinson Crusoe,2,11,Alice's Adventures in Wonderland,0.6082587838172913
+521,Robinson Crusoe,3,113,The Secret Garden,0.6218751668930054
+768,Wuthering Heights,1,1257,The Three Musketeers,0.5202046036720276
+768,Wuthering Heights,2,55,The Wonderful Wizard of Oz,0.5340803861618042
+768,Wuthering Heights,3,1513,Romeo and Juliet,0.5409300327301025
+1184,The Count of Monte Cristo,1,120,Treasure Island,0.5339270234107971
+1184,The Count of Monte Cristo,2,1257,The Three Musketeers,0.5620684623718262
+1184,The Count of Monte Cristo,3,55,The Wonderful Wizard of Oz,0.5641315579414368
+1257,The Three Musketeers,1,768,Wuthering Heights,0.5202046036720276
+1257,The Three Musketeers,2,1342,Pride and Prejudice,0.5274881720542908
+1257,The Three Musketeers,3,55,The Wonderful Wizard of Oz,0.528365969657898
+1260,Jane Eyre,1,55,The Wonderful Wizard of Oz,0.5785115361213684
+1260,Jane Eyre,2,120,Treasure Island,0.5835635662078857
+1260,Jane Eyre,3,36,The War of the Worlds,0.6109146475791931
+1342,Pride and Prejudice,1,1257,The Three Musketeers,0.5274881720542908
+1342,Pride and Prejudice,2,1513,Romeo and Juliet,0.5316406488418579
+1342,Pride and Prejudice,3,55,The Wonderful Wizard of Oz,0.5647391676902771
+1513,Romeo and Juliet,1,11,Alice's Adventures in Wonderland,0.48312512040138245
+1513,Romeo and Juliet,2,120,Treasure Island,0.4866848587989807
+1513,Romeo and Juliet,3,55,The Wonderful Wizard of Oz,0.4983428418636322
+1661,The Adventures of Sherlock Holmes,1,120,Treasure Island,0.5614718794822693
+1661,The Adventures of Sherlock Holmes,2,16,Peter Pan,0.5638763904571533
+1661,The Adventures of Sherlock Holmes,3,11,Alice's Adventures in Wonderland,0.5811507105827332

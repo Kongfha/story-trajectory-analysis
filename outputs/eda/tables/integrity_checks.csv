@@ -1,0 +1,7 @@
+check,expected,actual,pass
+metadata_unique_books,20,20,True
+feature_k_values,"[5, 7, 11]","[5, 7, 11]",True
+feature_row_count,60,60,True
+dtw_square,True,True,True
+dtw_symmetric,True,True,True
+dtw_diag_zero,True,True,True

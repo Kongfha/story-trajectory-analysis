@@ -1,0 +1,5 @@
+cluster,book_id,title,processed_dir,twist_peak_reason,genre_primary,format
+0,1184,The Count of Monte Cristo,count_monte_cristo,"Packed with shocking reveals, sudden betrayals, prison escapes, and a meticulously crafted, trap-springing vengeance arc.",Adventure,novel
+1,36,The War of the Worlds,war_worlds,"The sudden defeat of the seemingly invincible Martians by microscopic Earth bacteria offers a sharp, deus-ex-machina-like resolution.",Sci-Fi,novel
+2,35,The Time Machine,time_machine,The revelation of the predatory Morlocks feeding on the Eloi provides a horrifying shift in the middle of the narrative.,Sci-Fi,novella
+3,11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,"Picaresque and episodic structure; the 'it was all a dream' ending functions as a reveal, but the narrative is otherwise dreamily meandering.",Fantasy,novel
