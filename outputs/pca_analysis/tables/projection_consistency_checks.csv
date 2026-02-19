@@ -1,0 +1,6 @@
+book_id,processed_dir,checked,max_abs_diff,mean_abs_diff,detail
+11,alice_s_adventures_wonderland,True,1.6827668430835496e-05,2.9258440270440027e-06,ok
+16,peter_pan,True,1.71199471057093e-05,2.6634593004140883e-06,ok
+35,time_machine,True,2.0559815496812295e-05,2.176291319236068e-06,ok
+36,war_worlds,True,1.3876582698579831e-05,1.7425091158760637e-06,ok
+43,strange_case_dr_jekyll,True,2.1533991251571072e-05,3.5937721277208445e-06,ok

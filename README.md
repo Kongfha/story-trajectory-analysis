@@ -40,12 +40,16 @@ Primary metadata source:
 - `02_transform_and_cluster.ipynb`: Twist Signal, PCA, clustering, DTW.
 - `03_eda_and_visualization.ipynb`: EDA, visualization, and insight extraction.
 - `04_novel_stacked_twist_signal.ipynb`: all-novel stacked Twist Signal panels (`k=5,7,11`) + consolidated per-novel interpretation export.
+- `05_llm_judge_signal_analysis.ipynb`: `k=7` LLM-judge alignment analysis with processed event score, overlays, and insight exports.
+- `06_pca_component_insights.ipynb`: corpus/book-level PCA component interpretation, robustness checks, and PCA-signal linkage outputs.
+- `prompts/llm_judge/`: Gemini LLM-judge prompt templates + output schema.
+- `tools/llm_judge/`: helper scripts to build per-book prompt payloads and validate JSON outputs.
 - `data/raw/`: cleaned book text files (abbreviated title filenames).
 - `data/processed/{processed_dir}/`: per-book chunk, embedding, signal, peak, PCA artifacts.
 - `outputs/`: global outputs (`features.csv`, cluster CSVs, DTW matrix, summary).
 - `outputs/eda/`: EDA figures, tables, and insight narrative.
 - `outputs/eda/novel_stacks/`: grouped 20-book stacked figures, supporting tables, and validation outputs.
-- `docs/`: pipeline, schema dictionary, EDA planning, and output interpretation docs.
+- `docs/`: pipeline, schema dictionary, EDA planning, output interpretation, and Gemini judge prompt docs.
 
 ## Pipeline Run Order
 Run notebooks in this order:
@@ -54,6 +58,8 @@ Run notebooks in this order:
 3. `02_transform_and_cluster.ipynb`
 4. `03_eda_and_visualization.ipynb`
 5. `04_novel_stacked_twist_signal.ipynb`
+6. `05_llm_judge_signal_analysis.ipynb`
+7. `06_pca_component_insights.ipynb` (requires `02` PCA artifacts)
 
 ## Key Outputs for EDA/Insight Work
 Core files:
@@ -61,6 +67,9 @@ Core files:
 - `outputs/clusters_kmeans.csv`: feature-based KMeans labels.
 - `outputs/clusters_hier.csv`: hierarchical labels (`feature_ward` and `dtw_average`).
 - `outputs/dtw_distance_k7.npy`: pairwise DTW distances on resampled `s_t` for `k=7`.
+- `outputs/pca/global_pca_fit.npz`: persisted fitted PCA arrays (`components`, `mean`, EVR arrays).
+- `outputs/pca/global_pca_fit_meta.json`: PCA fit metadata (`seed`, rows used, model name, timestamps).
+- `outputs/pca/global_pca_variance_summary.csv`: EVR + cumulative EVR table (PC1..PC5).
 
 Per-book files:
 - `data/processed/{processed_dir}/signals_k{K}.npz`
@@ -74,6 +83,21 @@ Advanced per-novel stacked outputs:
 - `outputs/eda/novel_stacks/tables/novel_stacked_manifest.csv`
 - `outputs/eda/novel_stacks/tables/novel_stacked_highlights.csv`
 - `docs/NOVEL_STACKED_OUTPUT_INTERPRETATION.md`
+- `docs/GEMINI_LLM_JUDGE_PROMPT_PACKAGE.md`
+- `docs/LLM_JUDGE_SIGNAL_ANALYSIS.md`
+- `outputs/llm_judge/analysis/insights_k7.md`
+
+PCA component insight outputs:
+- `outputs/pca_analysis/tables/book_component_stats.csv`
+- `outputs/pca_analysis/tables/book_component_signal_assoc.csv`
+- `outputs/pca_analysis/tables/component_exemplar_chunks.csv`
+- `outputs/pca_analysis/tables/component_genre_association.csv`
+- `outputs/pca_analysis/tables/temporal_trend_stats.csv`
+- `outputs/pca_analysis/tables/corpus_assoc_bootstrap.csv`
+- `outputs/pca_analysis/tables/projection_consistency_checks.csv`
+- `outputs/pca_analysis/tables/pca_integrity_checks.csv`
+- `outputs/pca_analysis/figures/*.png`
+- `outputs/pca_analysis/insights.md`
 
 ## Known Limitations
 - Clustering settings are baseline defaults (`n_clusters=4`) and not heavily tuned.

@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://story-trajectory-analysis.local/schemas/llm_judge_output.json",
+  "title": "LLM Judge Peak Detection Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "book_id",
+    "title",
+    "total_chunks",
+    "method",
+    "peaks",
+    "quality_checks"
+  ],
+  "properties": {
+    "book_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "total_chunks": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "top_n", "min_chunk_gap"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "const": "llm_judge_peak_detection"
+        },
+        "top_n": {
+          "type": "integer",
+          "const": 3
+        },
+        "min_chunk_gap": {
+          "type": "integer",
+          "const": 3
+        }
+      }
+    },
+    "peaks": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "rank",
+          "chunk_index",
+          "position_norm",
+          "peak_strength",
+          "confidence",
+          "peak_type",
+          "why_short",
+          "evidence_quote",
+          "matched_preview",
+          "alt_chunk_candidates"
+        ],
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "enum": [1, 2, 3]
+          },
+          "chunk_index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "position_norm": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "peak_strength": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "peak_type": {
+            "type": "string",
+            "enum": [
+              "revelation",
+              "reversal",
+              "climax",
+              "betrayal",
+              "loss",
+              "decision",
+              "other"
+            ]
+          },
+          "why_short": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "matched_preview": {
+            "type": "string",
+            "minLength": 1
+          },
+          "alt_chunk_candidates": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "quality_checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "exactly_three_peaks",
+        "min_gap_enforced",
+        "indices_in_range",
+        "sorted_by_rank"
+      ],
+      "properties": {
+        "exactly_three_peaks": {
+          "type": "boolean"
+        },
+        "min_gap_enforced": {
+          "type": "boolean"
+        },
+        "indices_in_range": {
+          "type": "boolean"
+        },
+        "sorted_by_rank": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

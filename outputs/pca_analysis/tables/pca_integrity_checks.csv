@@ -1,0 +1,16 @@
+check,passed,detail
+components_rows_eq_5,True,"(5, 768)"
+mean_matches_embedding_dim,True,"mean=768, emb_dim=768"
+evr_in_0_1,True,"min=0.030045, max=0.071910"
+evr_sum_positive,True,sum=0.236610
+evr_cumulative_monotonic,True,checked global_pca_variance_summary.csv
+projection_consistency_checked_books,True,rows=5
+projection_consistency_max_abs_diff_lt_1e-4,True,max=2.1533991251571072e-05
+association_row_count_full_coverage,True,"actual=60, expected=60"
+association_no_nan_core_numeric,True,corr_speed_s/corr_speed_a/mean_speed/p95_speed
+perm_pvalues_in_0_1,True,trend_df perm_pvalue bounds
+perm_qvalues_in_0_1,True,trend_df perm_qvalue bounds
+bootstrap_ci_ordered,True,ci_lower <= ci_upper
+exemplar_pairs_present_pc1to5_posneg,True,pairs=10
+exemplar_dedup_rules_enforced,True,ok
+end_to_end_required_files_exist,True,verified table outputs

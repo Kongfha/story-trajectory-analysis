@@ -1,0 +1,54 @@
+{
+  "book_id": "1661",
+  "title": "The Adventures of Sherlock Holmes",
+  "total_chunks": 1044,
+  "method": {
+    "name": "llm_judge_peak_detection",
+    "top_n": 3,
+    "min_chunk_gap": 3
+  },
+  "peaks": [
+    {
+      "rank": 1,
+      "chunk_index": 742,
+      "position_norm": 0.711409,
+      "peak_strength": 0.91,
+      "confidence": 0.82,
+      "peak_type": "revelation",
+      "why_short": "Major reveal recontextualizes prior clues and resolves core mystery stakes.",
+      "evidence_quote": "short quote here",
+      "matched_preview": "preview text from chunks.jsonl",
+      "alt_chunk_candidates": [741, 743]
+    },
+    {
+      "rank": 2,
+      "chunk_index": 318,
+      "position_norm": 0.30489,
+      "peak_strength": 0.84,
+      "confidence": 0.77,
+      "peak_type": "reversal",
+      "why_short": "A sudden reversal changes who appears guilty and redirects the investigation.",
+      "evidence_quote": "short quote here",
+      "matched_preview": "preview text from chunks.jsonl",
+      "alt_chunk_candidates": [317, 319]
+    },
+    {
+      "rank": 3,
+      "chunk_index": 980,
+      "position_norm": 0.939597,
+      "peak_strength": 0.79,
+      "confidence": 0.73,
+      "peak_type": "climax",
+      "why_short": "Final confrontation closes narrative tension with decisive consequences.",
+      "evidence_quote": "short quote here",
+      "matched_preview": "preview text from chunks.jsonl",
+      "alt_chunk_candidates": [979, 981]
+    }
+  ],
+  "quality_checks": {
+    "exactly_three_peaks": true,
+    "min_gap_enforced": true,
+    "indices_in_range": true,
+    "sorted_by_rank": true
+  }
+}
