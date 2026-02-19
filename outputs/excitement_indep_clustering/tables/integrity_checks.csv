@@ -1,0 +1,42 @@
+check,expected,actual,pass
+book_11_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=264, emb_T=264, min=0.000, max=3.000, int_like=True",True
+book_16_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=471, emb_T=471, min=0.000, max=4.000, int_like=True",True
+book_35_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=323, emb_T=323, min=0.000, max=4.000, int_like=True",True
+book_36_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=599, emb_T=599, min=0.000, max=4.000, int_like=True",True
+book_43_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=255, emb_T=255, min=0.000, max=4.000, int_like=True",True
+book_55_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=395, emb_T=395, min=0.000, max=4.000, int_like=True",True
+book_84_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=749, emb_T=749, min=0.000, max=4.000, int_like=True",True
+book_103_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=632, emb_T=632, min=0.000, max=4.000, int_like=True",True
+book_113_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=805, emb_T=805, min=0.000, max=3.000, int_like=True",True
+book_120_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=685, emb_T=685, min=0.000, max=4.000, int_like=True",True
+book_175_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=854, emb_T=854, min=0.000, max=4.000, int_like=True",True
+book_345_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=1612, emb_T=1612, min=0.000, max=4.000, int_like=True",True
+book_521_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=1208, emb_T=1208, min=0.000, max=4.000, int_like=True",True
+book_768_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=1158, emb_T=1158, min=0.000, max=4.000, int_like=True",True
+book_1184_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=4608, emb_T=4608, min=0.000, max=4.000, int_like=True",True
+book_1257_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=2293, emb_T=2293, min=0.000, max=4.000, int_like=True",True
+book_1260_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=1852, emb_T=1852, min=0.000, max=4.000, int_like=True",True
+book_1342_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=1272, emb_T=1272, min=0.000, max=4.000, int_like=True",True
+book_1513_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=258, emb_T=258, min=0.000, max=4.000, int_like=True",True
+book_1661_indep_alignment,"len==emb_T, integer-like labels in [0,4]","len=1044, emb_T=1044, min=0.000, max=4.000, int_like=True",True
+feature_row_count,20,20,True
+feature_no_nan,True,True,True
+feature_no_inf_zscore,True,True,True
+selected_feature_k_in_range,"[2,6]",5,True
+elbow_k_coverage,1..10,1..10,True
+elbow_inertia_nonincreasing,True,True,True
+feature_pca_legend_entries_match_clusters,5,5,True
+selected_dtw_k_in_range,"[2,6]",2,True
+cluster_assignments_feature_rows,20,20,True
+cluster_assignments_dtw_rows,20,20,True
+cluster_quality_rows,15,15,True
+agreement_ari_range,"[0,1]",0.059334298118668596,True
+agreement_nmi_range,"[0,1]",0.24098709309412497,True
+genre_join_missing_count,0,0,True
+genre_cluster_count_sum,20,20,True
+genre_proportion_rowsum_max_deviation,<=1e-6,1.1102230246251565e-16,True
+cluster_report_embedded_figures_exist,14,14,True
+output_files_complete,31,31,True
+feature_assign_unique_books,20,20,True
+dtw_assign_unique_books,20,20,True
+ma_window_is_5,5,5,True

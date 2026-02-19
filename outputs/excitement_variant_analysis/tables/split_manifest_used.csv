@@ -1,0 +1,21 @@
+book_id,title,processed_dir,T,split
+16,Peter Pan,peter_pan,471,test
+113,The Secret Garden,secret_garden,805,test
+768,Wuthering Heights,wuthering_heights,1158,test
+1342,Pride and Prejudice,pride_prejudice,1272,test
+11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,264,train
+35,The Time Machine,time_machine,323,train
+36,The War of the Worlds,war_worlds,599,train
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,strange_case_dr_jekyll,255,train
+55,The Wonderful Wizard of Oz,wonderful_wizard_oz,395,train
+84,"Frankenstein; Or, The Modern Prometheus",frankenstein_modern_prometheus,749,train
+103,Around the World in Eighty Days,around_world_eighty_days,632,train
+120,Treasure Island,treasure_island,685,train
+175,The Phantom of the Opera,phantom_opera,854,train
+345,Dracula,dracula,1612,train
+521,Robinson Crusoe,robinson_crusoe,1208,train
+1184,The Count of Monte Cristo,count_monte_cristo,4608,train
+1257,The Three Musketeers,three_musketeers,2293,train
+1260,Jane Eyre,jane_eyre,1852,train
+1513,Romeo and Juliet,romeo_juliet,258,train
+1661,The Adventures of Sherlock Holmes,adventures_sherlock_holmes,1044,train

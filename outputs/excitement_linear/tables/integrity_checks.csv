@@ -1,0 +1,33 @@
+check,expected,actual,pass
+book_11_alignment,"label_len == emb_T and labels in [0,4]","label_len=264, emb_T=264, min=0.0, max=4.0",True
+book_16_alignment,"label_len == emb_T and labels in [0,4]","label_len=471, emb_T=471, min=0.0, max=4.0",True
+book_35_alignment,"label_len == emb_T and labels in [0,4]","label_len=323, emb_T=323, min=0.0, max=4.0",True
+book_36_alignment,"label_len == emb_T and labels in [0,4]","label_len=599, emb_T=599, min=0.0, max=4.0",True
+book_43_alignment,"label_len == emb_T and labels in [0,4]","label_len=255, emb_T=255, min=0.0, max=4.0",True
+book_55_alignment,"label_len == emb_T and labels in [0,4]","label_len=395, emb_T=395, min=0.0, max=4.0",True
+book_84_alignment,"label_len == emb_T and labels in [0,4]","label_len=749, emb_T=749, min=0.0, max=4.0",True
+book_103_alignment,"label_len == emb_T and labels in [0,4]","label_len=632, emb_T=632, min=0.0, max=4.0",True
+book_113_alignment,"label_len == emb_T and labels in [0,4]","label_len=805, emb_T=805, min=0.0, max=4.0",True
+book_120_alignment,"label_len == emb_T and labels in [0,4]","label_len=685, emb_T=685, min=0.0, max=4.0",True
+book_175_alignment,"label_len == emb_T and labels in [0,4]","label_len=854, emb_T=854, min=0.0, max=4.0",True
+book_345_alignment,"label_len == emb_T and labels in [0,4]","label_len=1612, emb_T=1612, min=0.0, max=4.0",True
+book_521_alignment,"label_len == emb_T and labels in [0,4]","label_len=1208, emb_T=1208, min=0.0, max=4.0",True
+book_768_alignment,"label_len == emb_T and labels in [0,4]","label_len=1158, emb_T=1158, min=0.0, max=4.0",True
+book_1184_alignment,"label_len == emb_T and labels in [0,4]","label_len=4608, emb_T=4608, min=0.0, max=4.0",True
+book_1257_alignment,"label_len == emb_T and labels in [0,4]","label_len=2293, emb_T=2293, min=0.0, max=4.0",True
+book_1260_alignment,"label_len == emb_T and labels in [0,4]","label_len=1852, emb_T=1852, min=0.0, max=4.0",True
+book_1342_alignment,"label_len == emb_T and labels in [0,4]","label_len=1272, emb_T=1272, min=0.0, max=4.0",True
+book_1513_alignment,"label_len == emb_T and labels in [0,4]","label_len=258, emb_T=258, min=0.0, max=4.0",True
+book_1661_alignment,"label_len == emb_T and labels in [0,4]","label_len=1044, emb_T=1044, min=0.0, max=4.0",True
+split_train_count,16,16,True
+split_test_count,4,4,True
+split_no_overlap,True,True,True
+split_total_books,20,20,True
+model_W_shape,"(768,1)","(768, 1)",True
+model_b_shape,"(1,)","(1,)",True
+prediction_shape_train,17631,17631,True
+prediction_shape_test,3706,3706,True
+training_net_loss_decrease,final < first,"first=3.401970,final=1.447614",True
+output_files_complete,17,17,True
+overlay_test_count,4,4,True
+overlay_train_count,2,2,True

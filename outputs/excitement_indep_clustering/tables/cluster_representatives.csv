@@ -1,0 +1,22 @@
+branch,cluster,role,book_id,title,processed_dir,score_name,score_value
+dtw,1,cluster_medoid,11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,mean_intra_cluster_dtw,70.8508331129332
+dtw,1,high_volatility,43,The Strange Case of Dr. Jekyll and Mr. Hyde,strange_case_dr_jekyll,std_diff,1.083128037829643
+dtw,1,low_volatility,1257,The Three Musketeers,three_musketeers,std_diff,0.9135874580460545
+dtw,2,cluster_medoid,1513,Romeo and Juliet,romeo_juliet,mean_intra_cluster_dtw,0.0
+dtw,2,high_volatility,1513,Romeo and Juliet,romeo_juliet,std_diff,1.0115384525712032
+dtw,2,low_volatility,1513,Romeo and Juliet,romeo_juliet,std_diff,1.0115384525712032
+feature,1,centroid_medoid,1260,Jane Eyre,jane_eyre,euclidean_to_centroid,1.8780328622154978
+feature,1,high_volatility,1260,Jane Eyre,jane_eyre,std_diff,0.9642444717344179
+feature,1,low_volatility,1342,Pride and Prejudice,pride_prejudice,std_diff,0.9222314185245901
+feature,2,centroid_medoid,768,Wuthering Heights,wuthering_heights,euclidean_to_centroid,2.088365828286565
+feature,2,high_volatility,175,The Phantom of the Opera,phantom_opera,std_diff,1.0208832507037602
+feature,2,low_volatility,1257,The Three Musketeers,three_musketeers,std_diff,0.9135874580460545
+feature,3,centroid_medoid,1661,The Adventures of Sherlock Holmes,adventures_sherlock_holmes,euclidean_to_centroid,2.161452743957495
+feature,3,high_volatility,43,The Strange Case of Dr. Jekyll and Mr. Hyde,strange_case_dr_jekyll,std_diff,1.083128037829643
+feature,3,low_volatility,35,The Time Machine,time_machine,std_diff,1.0245247006467209
+feature,4,centroid_medoid,1513,Romeo and Juliet,romeo_juliet,euclidean_to_centroid,0.0
+feature,4,high_volatility,1513,Romeo and Juliet,romeo_juliet,std_diff,1.0115384525712032
+feature,4,low_volatility,1513,Romeo and Juliet,romeo_juliet,std_diff,1.0115384525712032
+feature,5,centroid_medoid,11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,euclidean_to_centroid,2.129450557688183
+feature,5,high_volatility,113,The Secret Garden,secret_garden,std_diff,0.9580732016894896
+feature,5,low_volatility,11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,std_diff,0.9290335910928226

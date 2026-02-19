@@ -1,0 +1,316 @@
+variant,label,count,proportion,scope,book_id,processed_dir,title
+base,0,7977,0.37385761822186814,global,,,
+base,1,2523,0.11824530158878943,global,,,
+base,2,3711,0.17392323194450954,global,,,
+base,3,6760,0.3168205464685757,global,,,
+base,4,366,0.017153301776257207,global,,,
+winsize_5,0,2428,0.11379294183812157,global,,,
+winsize_5,1,2050,0.0960772367249379,global,,,
+winsize_5,2,4142,0.19412288512911843,global,,,
+winsize_5,3,11717,0.54913999156395,global,,,
+winsize_5,4,1000,0.046866944743872145,global,,,
+indep_winsize_5,0,1914,0.08970333223977128,global,,,
+indep_winsize_5,1,10127,0.4746215494211932,global,,,
+indep_winsize_5,2,7123,0.33383324741060133,global,,,
+indep_winsize_5,3,2084,0.09767071284622955,global,,,
+indep_winsize_5,4,89,0.004171158082204621,global,,,
+base,0,64,0.24242424242424243,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+base,1,67,0.2537878787878788,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+base,2,45,0.17045454545454544,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+base,3,85,0.32196969696969696,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+base,4,3,0.011363636363636364,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+winsize_5,0,0,0.0,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+winsize_5,1,20,0.07575757575757576,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+winsize_5,2,50,0.1893939393939394,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+winsize_5,3,189,0.7159090909090909,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+winsize_5,4,5,0.01893939393939394,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+indep_winsize_5,0,18,0.06818181818181818,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+indep_winsize_5,1,144,0.5454545454545454,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+indep_winsize_5,2,81,0.3068181818181818,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+indep_winsize_5,3,21,0.07954545454545454,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+indep_winsize_5,4,0,0.0,book,11.0,alice_s_adventures_wonderland,Alice's Adventures in Wonderland
+base,0,111,0.2356687898089172,book,16.0,peter_pan,Peter Pan
+base,1,62,0.1316348195329087,book,16.0,peter_pan,Peter Pan
+base,2,88,0.18683651804670912,book,16.0,peter_pan,Peter Pan
+base,3,202,0.4288747346072187,book,16.0,peter_pan,Peter Pan
+base,4,8,0.016985138004246284,book,16.0,peter_pan,Peter Pan
+winsize_5,0,20,0.04246284501061571,book,16.0,peter_pan,Peter Pan
+winsize_5,1,25,0.05307855626326964,book,16.0,peter_pan,Peter Pan
+winsize_5,2,80,0.16985138004246284,book,16.0,peter_pan,Peter Pan
+winsize_5,3,326,0.692144373673036,book,16.0,peter_pan,Peter Pan
+winsize_5,4,20,0.04246284501061571,book,16.0,peter_pan,Peter Pan
+indep_winsize_5,0,44,0.09341825902335456,book,16.0,peter_pan,Peter Pan
+indep_winsize_5,1,224,0.47558386411889597,book,16.0,peter_pan,Peter Pan
+indep_winsize_5,2,138,0.2929936305732484,book,16.0,peter_pan,Peter Pan
+indep_winsize_5,3,64,0.13588110403397027,book,16.0,peter_pan,Peter Pan
+indep_winsize_5,4,1,0.0021231422505307855,book,16.0,peter_pan,Peter Pan
+base,0,115,0.3560371517027864,book,35.0,time_machine,The Time Machine
+base,1,33,0.1021671826625387,book,35.0,time_machine,The Time Machine
+base,2,78,0.24148606811145512,book,35.0,time_machine,The Time Machine
+base,3,96,0.29721362229102166,book,35.0,time_machine,The Time Machine
+base,4,1,0.0030959752321981426,book,35.0,time_machine,The Time Machine
+winsize_5,0,25,0.07739938080495357,book,35.0,time_machine,The Time Machine
+winsize_5,1,25,0.07739938080495357,book,35.0,time_machine,The Time Machine
+winsize_5,2,80,0.2476780185758514,book,35.0,time_machine,The Time Machine
+winsize_5,3,188,0.5820433436532507,book,35.0,time_machine,The Time Machine
+winsize_5,4,5,0.015479876160990712,book,35.0,time_machine,The Time Machine
+indep_winsize_5,0,50,0.15479876160990713,book,35.0,time_machine,The Time Machine
+indep_winsize_5,1,158,0.4891640866873065,book,35.0,time_machine,The Time Machine
+indep_winsize_5,2,85,0.2631578947368421,book,35.0,time_machine,The Time Machine
+indep_winsize_5,3,27,0.08359133126934984,book,35.0,time_machine,The Time Machine
+indep_winsize_5,4,3,0.009287925696594427,book,35.0,time_machine,The Time Machine
+base,0,206,0.34390651085141904,book,36.0,war_worlds,The War of the Worlds
+base,1,76,0.12687813021702837,book,36.0,war_worlds,The War of the Worlds
+base,2,102,0.17028380634390652,book,36.0,war_worlds,The War of the Worlds
+base,3,206,0.34390651085141904,book,36.0,war_worlds,The War of the Worlds
+base,4,9,0.015025041736227046,book,36.0,war_worlds,The War of the Worlds
+winsize_5,0,65,0.10851419031719532,book,36.0,war_worlds,The War of the Worlds
+winsize_5,1,35,0.05843071786310518,book,36.0,war_worlds,The War of the Worlds
+winsize_5,2,45,0.07512520868113523,book,36.0,war_worlds,The War of the Worlds
+winsize_5,3,424,0.7078464106844741,book,36.0,war_worlds,The War of the Worlds
+winsize_5,4,30,0.05008347245409015,book,36.0,war_worlds,The War of the Worlds
+indep_winsize_5,0,60,0.1001669449081803,book,36.0,war_worlds,The War of the Worlds
+indep_winsize_5,1,251,0.41903171953255425,book,36.0,war_worlds,The War of the Worlds
+indep_winsize_5,2,191,0.31886477462437396,book,36.0,war_worlds,The War of the Worlds
+indep_winsize_5,3,92,0.15358931552587646,book,36.0,war_worlds,The War of the Worlds
+indep_winsize_5,4,5,0.008347245409015025,book,36.0,war_worlds,The War of the Worlds
+base,0,111,0.43529411764705883,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+base,1,36,0.1411764705882353,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+base,2,38,0.14901960784313725,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+base,3,64,0.25098039215686274,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+base,4,6,0.023529411764705882,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+winsize_5,0,40,0.1568627450980392,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+winsize_5,1,35,0.13725490196078433,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+winsize_5,2,50,0.19607843137254902,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+winsize_5,3,110,0.43137254901960786,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+winsize_5,4,20,0.0784313725490196,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+indep_winsize_5,0,27,0.10588235294117647,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+indep_winsize_5,1,107,0.4196078431372549,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+indep_winsize_5,2,82,0.3215686274509804,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+indep_winsize_5,3,37,0.1450980392156863,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+indep_winsize_5,4,2,0.00784313725490196,book,43.0,strange_case_dr_jekyll,The Strange Case of Dr. Jekyll and Mr. Hyde
+base,0,91,0.23037974683544304,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+base,1,49,0.1240506329113924,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+base,2,118,0.29873417721518986,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+base,3,133,0.3367088607594937,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+base,4,4,0.010126582278481013,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+winsize_5,0,10,0.02531645569620253,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+winsize_5,1,40,0.10126582278481013,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+winsize_5,2,140,0.35443037974683544,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+winsize_5,3,205,0.5189873417721519,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+winsize_5,4,0,0.0,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+indep_winsize_5,0,39,0.09873417721518987,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+indep_winsize_5,1,195,0.4936708860759494,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+indep_winsize_5,2,125,0.31645569620253167,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+indep_winsize_5,3,33,0.08354430379746836,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+indep_winsize_5,4,3,0.007594936708860759,book,55.0,wonderful_wizard_oz,The Wonderful Wizard of Oz
+base,0,290,0.3871829105473965,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+base,1,78,0.1041388518024032,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+base,2,132,0.17623497997329773,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+base,3,225,0.30040053404539385,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+base,4,24,0.03204272363150868,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+winsize_5,0,119,0.1588785046728972,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+winsize_5,1,55,0.07343124165554073,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+winsize_5,2,100,0.13351134846461948,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+winsize_5,3,410,0.5473965287049399,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+winsize_5,4,65,0.08678237650200267,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+indep_winsize_5,0,96,0.12817089452603472,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+indep_winsize_5,1,344,0.45927903871829107,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+indep_winsize_5,2,230,0.30707610146862485,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+indep_winsize_5,3,74,0.09879839786381843,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+indep_winsize_5,4,5,0.006675567423230975,book,84.0,frankenstein_modern_prometheus,"Frankenstein; Or, The Modern Prometheus"
+base,0,292,0.4620253164556962,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+base,1,70,0.11075949367088607,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+base,2,99,0.15664556962025317,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+base,3,166,0.2626582278481013,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+base,4,5,0.007911392405063292,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+winsize_5,0,90,0.14240506329113925,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+winsize_5,1,155,0.24525316455696203,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+winsize_5,2,110,0.17405063291139242,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+winsize_5,3,262,0.41455696202531644,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+winsize_5,4,15,0.023734177215189875,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+indep_winsize_5,0,77,0.12183544303797468,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+indep_winsize_5,1,305,0.4825949367088608,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+indep_winsize_5,2,193,0.30537974683544306,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+indep_winsize_5,3,56,0.08860759493670886,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+indep_winsize_5,4,1,0.0015822784810126582,book,103.0,around_world_eighty_days,Around the World in Eighty Days
+base,0,202,0.25093167701863356,book,113.0,secret_garden,The Secret Garden
+base,1,131,0.16273291925465838,book,113.0,secret_garden,The Secret Garden
+base,2,177,0.21987577639751552,book,113.0,secret_garden,The Secret Garden
+base,3,271,0.33664596273291925,book,113.0,secret_garden,The Secret Garden
+base,4,24,0.02981366459627329,book,113.0,secret_garden,The Secret Garden
+winsize_5,0,40,0.049689440993788817,book,113.0,secret_garden,The Secret Garden
+winsize_5,1,75,0.09316770186335403,book,113.0,secret_garden,The Secret Garden
+winsize_5,2,215,0.2670807453416149,book,113.0,secret_garden,The Secret Garden
+winsize_5,3,425,0.5279503105590062,book,113.0,secret_garden,The Secret Garden
+winsize_5,4,50,0.062111801242236024,book,113.0,secret_garden,The Secret Garden
+indep_winsize_5,0,91,0.11304347826086956,book,113.0,secret_garden,The Secret Garden
+indep_winsize_5,1,406,0.5043478260869565,book,113.0,secret_garden,The Secret Garden
+indep_winsize_5,2,263,0.3267080745341615,book,113.0,secret_garden,The Secret Garden
+indep_winsize_5,3,45,0.055900621118012424,book,113.0,secret_garden,The Secret Garden
+indep_winsize_5,4,0,0.0,book,113.0,secret_garden,The Secret Garden
+base,0,168,0.24525547445255474,book,120.0,treasure_island,Treasure Island
+base,1,102,0.14890510948905109,book,120.0,treasure_island,Treasure Island
+base,2,111,0.16204379562043797,book,120.0,treasure_island,Treasure Island
+base,3,299,0.4364963503649635,book,120.0,treasure_island,Treasure Island
+base,4,5,0.0072992700729927005,book,120.0,treasure_island,Treasure Island
+winsize_5,0,25,0.0364963503649635,book,120.0,treasure_island,Treasure Island
+winsize_5,1,50,0.072992700729927,book,120.0,treasure_island,Treasure Island
+winsize_5,2,115,0.1678832116788321,book,120.0,treasure_island,Treasure Island
+winsize_5,3,475,0.6934306569343066,book,120.0,treasure_island,Treasure Island
+winsize_5,4,20,0.029197080291970802,book,120.0,treasure_island,Treasure Island
+indep_winsize_5,0,33,0.04817518248175182,book,120.0,treasure_island,Treasure Island
+indep_winsize_5,1,275,0.40145985401459855,book,120.0,treasure_island,Treasure Island
+indep_winsize_5,2,274,0.4,book,120.0,treasure_island,Treasure Island
+indep_winsize_5,3,102,0.14890510948905109,book,120.0,treasure_island,Treasure Island
+indep_winsize_5,4,1,0.00145985401459854,book,120.0,treasure_island,Treasure Island
+base,0,234,0.27400468384074944,book,175.0,phantom_opera,The Phantom of the Opera
+base,1,82,0.09601873536299765,book,175.0,phantom_opera,The Phantom of the Opera
+base,2,125,0.14637002341920374,book,175.0,phantom_opera,The Phantom of the Opera
+base,3,385,0.45081967213114754,book,175.0,phantom_opera,The Phantom of the Opera
+base,4,28,0.03278688524590164,book,175.0,phantom_opera,The Phantom of the Opera
+winsize_5,0,75,0.08782201405152225,book,175.0,phantom_opera,The Phantom of the Opera
+winsize_5,1,50,0.0585480093676815,book,175.0,phantom_opera,The Phantom of the Opera
+winsize_5,2,74,0.08665105386416862,book,175.0,phantom_opera,The Phantom of the Opera
+winsize_5,3,550,0.6440281030444965,book,175.0,phantom_opera,The Phantom of the Opera
+winsize_5,4,105,0.12295081967213115,book,175.0,phantom_opera,The Phantom of the Opera
+indep_winsize_5,0,52,0.06088992974238876,book,175.0,phantom_opera,The Phantom of the Opera
+indep_winsize_5,1,348,0.40749414519906324,book,175.0,phantom_opera,The Phantom of the Opera
+indep_winsize_5,2,308,0.36065573770491804,book,175.0,phantom_opera,The Phantom of the Opera
+indep_winsize_5,3,142,0.16627634660421545,book,175.0,phantom_opera,The Phantom of the Opera
+indep_winsize_5,4,4,0.00468384074941452,book,175.0,phantom_opera,The Phantom of the Opera
+base,0,494,0.3064516129032258,book,345.0,dracula,Dracula
+base,1,160,0.09925558312655088,book,345.0,dracula,Dracula
+base,2,331,0.2053349875930521,book,345.0,dracula,Dracula
+base,3,589,0.36538461538461536,book,345.0,dracula,Dracula
+base,4,38,0.02357320099255583,book,345.0,dracula,Dracula
+winsize_5,0,110,0.06823821339950373,book,345.0,dracula,Dracula
+winsize_5,1,65,0.04032258064516129,book,345.0,dracula,Dracula
+winsize_5,2,185,0.11476426799007444,book,345.0,dracula,Dracula
+winsize_5,3,1127,0.6991315136476427,book,345.0,dracula,Dracula
+winsize_5,4,125,0.07754342431761786,book,345.0,dracula,Dracula
+indep_winsize_5,0,140,0.08684863523573201,book,345.0,dracula,Dracula
+indep_winsize_5,1,738,0.45781637717121587,book,345.0,dracula,Dracula
+indep_winsize_5,2,537,0.33312655086848636,book,345.0,dracula,Dracula
+indep_winsize_5,3,189,0.11724565756823821,book,345.0,dracula,Dracula
+indep_winsize_5,4,8,0.004962779156327543,book,345.0,dracula,Dracula
+base,0,672,0.5562913907284768,book,521.0,robinson_crusoe,Robinson Crusoe
+base,1,118,0.09768211920529801,book,521.0,robinson_crusoe,Robinson Crusoe
+base,2,170,0.14072847682119205,book,521.0,robinson_crusoe,Robinson Crusoe
+base,3,242,0.20033112582781457,book,521.0,robinson_crusoe,Robinson Crusoe
+base,4,6,0.004966887417218543,book,521.0,robinson_crusoe,Robinson Crusoe
+winsize_5,0,325,0.26903973509933776,book,521.0,robinson_crusoe,Robinson Crusoe
+winsize_5,1,180,0.1490066225165563,book,521.0,robinson_crusoe,Robinson Crusoe
+winsize_5,2,198,0.16390728476821192,book,521.0,robinson_crusoe,Robinson Crusoe
+winsize_5,3,475,0.3932119205298013,book,521.0,robinson_crusoe,Robinson Crusoe
+winsize_5,4,30,0.024834437086092714,book,521.0,robinson_crusoe,Robinson Crusoe
+indep_winsize_5,0,193,0.1597682119205298,book,521.0,robinson_crusoe,Robinson Crusoe
+indep_winsize_5,1,632,0.5231788079470199,book,521.0,robinson_crusoe,Robinson Crusoe
+indep_winsize_5,2,305,0.25248344370860926,book,521.0,robinson_crusoe,Robinson Crusoe
+indep_winsize_5,3,71,0.058774834437086095,book,521.0,robinson_crusoe,Robinson Crusoe
+indep_winsize_5,4,7,0.005794701986754967,book,521.0,robinson_crusoe,Robinson Crusoe
+base,0,360,0.31088082901554404,book,768.0,wuthering_heights,Wuthering Heights
+base,1,169,0.1459412780656304,book,768.0,wuthering_heights,Wuthering Heights
+base,2,188,0.16234887737478412,book,768.0,wuthering_heights,Wuthering Heights
+base,3,412,0.35578583765112265,book,768.0,wuthering_heights,Wuthering Heights
+base,4,29,0.025043177892918825,book,768.0,wuthering_heights,Wuthering Heights
+winsize_5,0,70,0.06044905008635579,book,768.0,wuthering_heights,Wuthering Heights
+winsize_5,1,120,0.10362694300518134,book,768.0,wuthering_heights,Wuthering Heights
+winsize_5,2,165,0.14248704663212436,book,768.0,wuthering_heights,Wuthering Heights
+winsize_5,3,698,0.6027633851468048,book,768.0,wuthering_heights,Wuthering Heights
+winsize_5,4,105,0.09067357512953368,book,768.0,wuthering_heights,Wuthering Heights
+indep_winsize_5,0,77,0.06649395509499137,book,768.0,wuthering_heights,Wuthering Heights
+indep_winsize_5,1,533,0.46027633851468047,book,768.0,wuthering_heights,Wuthering Heights
+indep_winsize_5,2,423,0.36528497409326427,book,768.0,wuthering_heights,Wuthering Heights
+indep_winsize_5,3,121,0.10449050086355786,book,768.0,wuthering_heights,Wuthering Heights
+indep_winsize_5,4,4,0.0034542314335060447,book,768.0,wuthering_heights,Wuthering Heights
+base,0,1953,0.423828125,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+base,1,506,0.10980902777777778,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+base,2,719,0.1560329861111111,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+base,3,1375,0.2983940972222222,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+base,4,55,0.011935763888888888,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+winsize_5,0,638,0.1384548611111111,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+winsize_5,1,365,0.07921006944444445,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+winsize_5,2,1050,0.22786458333333334,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+winsize_5,3,2405,0.5219184027777778,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+winsize_5,4,150,0.032552083333333336,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+indep_winsize_5,0,308,0.06684027777777778,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+indep_winsize_5,1,2236,0.4852430555555556,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+indep_winsize_5,2,1626,0.3528645833333333,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+indep_winsize_5,3,421,0.09136284722222222,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+indep_winsize_5,4,17,0.003689236111111111,book,1184.0,count_monte_cristo,The Count of Monte Cristo
+base,0,850,0.3706934147405146,book,1257.0,three_musketeers,The Three Musketeers
+base,1,242,0.10553859572612298,book,1257.0,three_musketeers,The Three Musketeers
+base,2,383,0.16703009158307894,book,1257.0,three_musketeers,The Three Musketeers
+base,3,781,0.3406018316615787,book,1257.0,three_musketeers,The Three Musketeers
+base,4,37,0.016136066288704752,book,1257.0,three_musketeers,The Three Musketeers
+winsize_5,0,150,0.06541648495420846,book,1257.0,three_musketeers,The Three Musketeers
+winsize_5,1,278,0.12123855211513301,book,1257.0,three_musketeers,The Three Musketeers
+winsize_5,2,465,0.20279110335804623,book,1257.0,three_musketeers,The Three Musketeers
+winsize_5,3,1345,0.5865678150894025,book,1257.0,three_musketeers,The Three Musketeers
+winsize_5,4,55,0.02398604448320977,book,1257.0,three_musketeers,The Three Musketeers
+indep_winsize_5,0,99,0.043174880069777585,book,1257.0,three_musketeers,The Three Musketeers
+indep_winsize_5,1,1046,0.45617095508068034,book,1257.0,three_musketeers,The Three Musketeers
+indep_winsize_5,2,905,0.3946794592237244,book,1257.0,three_musketeers,The Three Musketeers
+indep_winsize_5,3,239,0.10423026602703882,book,1257.0,three_musketeers,The Three Musketeers
+indep_winsize_5,4,4,0.0017444395987788923,book,1257.0,three_musketeers,The Three Musketeers
+base,0,728,0.3930885529157667,book,1260.0,jane_eyre,Jane Eyre
+base,1,251,0.1355291576673866,book,1260.0,jane_eyre,Jane Eyre
+base,2,312,0.16846652267818574,book,1260.0,jane_eyre,Jane Eyre
+base,3,524,0.28293736501079914,book,1260.0,jane_eyre,Jane Eyre
+base,4,37,0.01997840172786177,book,1260.0,jane_eyre,Jane Eyre
+winsize_5,0,245,0.13228941684665227,book,1260.0,jane_eyre,Jane Eyre
+winsize_5,1,187,0.1009719222462203,book,1260.0,jane_eyre,Jane Eyre
+winsize_5,2,400,0.2159827213822894,book,1260.0,jane_eyre,Jane Eyre
+winsize_5,3,955,0.515658747300216,book,1260.0,jane_eyre,Jane Eyre
+winsize_5,4,65,0.03509719222462203,book,1260.0,jane_eyre,Jane Eyre
+indep_winsize_5,0,216,0.11663066954643629,book,1260.0,jane_eyre,Jane Eyre
+indep_winsize_5,1,923,0.49838012958963285,book,1260.0,jane_eyre,Jane Eyre
+indep_winsize_5,2,565,0.3050755939524838,book,1260.0,jane_eyre,Jane Eyre
+indep_winsize_5,3,141,0.07613390928725702,book,1260.0,jane_eyre,Jane Eyre
+indep_winsize_5,4,7,0.003779697624190065,book,1260.0,jane_eyre,Jane Eyre
+base,0,568,0.44654088050314467,book,1342.0,pride_prejudice,Pride and Prejudice
+base,1,165,0.12971698113207547,book,1342.0,pride_prejudice,Pride and Prejudice
+base,2,269,0.21147798742138366,book,1342.0,pride_prejudice,Pride and Prejudice
+base,3,262,0.2059748427672956,book,1342.0,pride_prejudice,Pride and Prejudice
+base,4,8,0.006289308176100629,book,1342.0,pride_prejudice,Pride and Prejudice
+winsize_5,0,247,0.19418238993710693,book,1342.0,pride_prejudice,Pride and Prejudice
+winsize_5,1,205,0.1611635220125786,book,1342.0,pride_prejudice,Pride and Prejudice
+winsize_5,2,320,0.25157232704402516,book,1342.0,pride_prejudice,Pride and Prejudice
+winsize_5,3,485,0.3812893081761006,book,1342.0,pride_prejudice,Pride and Prejudice
+winsize_5,4,15,0.01179245283018868,book,1342.0,pride_prejudice,Pride and Prejudice
+indep_winsize_5,0,169,0.13286163522012578,book,1342.0,pride_prejudice,Pride and Prejudice
+indep_winsize_5,1,687,0.5400943396226415,book,1342.0,pride_prejudice,Pride and Prejudice
+indep_winsize_5,2,358,0.28144654088050314,book,1342.0,pride_prejudice,Pride and Prejudice
+indep_winsize_5,3,55,0.04323899371069182,book,1342.0,pride_prejudice,Pride and Prejudice
+indep_winsize_5,4,3,0.0023584905660377358,book,1342.0,pride_prejudice,Pride and Prejudice
+base,0,33,0.12790697674418605,book,1513.0,romeo_juliet,Romeo and Juliet
+base,1,7,0.027131782945736434,book,1513.0,romeo_juliet,Romeo and Juliet
+base,2,14,0.05426356589147287,book,1513.0,romeo_juliet,Romeo and Juliet
+base,3,184,0.7131782945736435,book,1513.0,romeo_juliet,Romeo and Juliet
+base,4,20,0.07751937984496124,book,1513.0,romeo_juliet,Romeo and Juliet
+winsize_5,0,5,0.01937984496124031,book,1513.0,romeo_juliet,Romeo and Juliet
+winsize_5,1,0,0.0,book,1513.0,romeo_juliet,Romeo and Juliet
+winsize_5,2,15,0.05813953488372093,book,1513.0,romeo_juliet,Romeo and Juliet
+winsize_5,3,163,0.6317829457364341,book,1513.0,romeo_juliet,Romeo and Juliet
+winsize_5,4,75,0.29069767441860467,book,1513.0,romeo_juliet,Romeo and Juliet
+indep_winsize_5,0,8,0.031007751937984496,book,1513.0,romeo_juliet,Romeo and Juliet
+indep_winsize_5,1,93,0.36046511627906974,book,1513.0,romeo_juliet,Romeo and Juliet
+indep_winsize_5,2,98,0.3798449612403101,book,1513.0,romeo_juliet,Romeo and Juliet
+indep_winsize_5,3,53,0.2054263565891473,book,1513.0,romeo_juliet,Romeo and Juliet
+indep_winsize_5,4,6,0.023255813953488372,book,1513.0,romeo_juliet,Romeo and Juliet
+base,0,435,0.4166666666666667,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+base,1,119,0.11398467432950192,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+base,2,212,0.20306513409961685,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+base,3,259,0.24808429118773948,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+base,4,19,0.018199233716475097,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+winsize_5,0,129,0.1235632183908046,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+winsize_5,1,85,0.08141762452107279,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+winsize_5,2,285,0.27298850574712646,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+winsize_5,3,500,0.4789272030651341,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+winsize_5,4,45,0.04310344827586207,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+indep_winsize_5,0,117,0.11206896551724138,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+indep_winsize_5,1,482,0.4616858237547893,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+indep_winsize_5,2,336,0.3218390804597701,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+indep_winsize_5,3,101,0.09674329501915709,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes
+indep_winsize_5,4,8,0.007662835249042145,book,1661.0,adventures_sherlock_holmes,The Adventures of Sherlock Holmes

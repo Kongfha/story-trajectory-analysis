@@ -1,0 +1,70 @@
+check,expected,actual,pass
+split_train_count,16,16,True
+split_test_count,4,4,True
+split_no_overlap,True,True,True
+split_total_books,20,20,True
+book_11_base_alignment,"len==T, integer-like labels in [0,4]","len=264, T=264, min=0.000, max=4.000, int_like=True",True
+book_11_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=264, T=264, min=1.000, max=4.000, int_like=True",True
+book_11_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=264, T=264, min=0.000, max=3.000, int_like=True",True
+book_16_base_alignment,"len==T, integer-like labels in [0,4]","len=471, T=471, min=0.000, max=4.000, int_like=True",True
+book_16_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=471, T=471, min=0.000, max=4.000, int_like=True",True
+book_16_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=471, T=471, min=0.000, max=4.000, int_like=True",True
+book_35_base_alignment,"len==T, integer-like labels in [0,4]","len=323, T=323, min=0.000, max=4.000, int_like=True",True
+book_35_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=323, T=323, min=0.000, max=4.000, int_like=True",True
+book_35_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=323, T=323, min=0.000, max=4.000, int_like=True",True
+book_36_base_alignment,"len==T, integer-like labels in [0,4]","len=599, T=599, min=0.000, max=4.000, int_like=True",True
+book_36_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=599, T=599, min=0.000, max=4.000, int_like=True",True
+book_36_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=599, T=599, min=0.000, max=4.000, int_like=True",True
+book_43_base_alignment,"len==T, integer-like labels in [0,4]","len=255, T=255, min=0.000, max=4.000, int_like=True",True
+book_43_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=255, T=255, min=0.000, max=4.000, int_like=True",True
+book_43_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=255, T=255, min=0.000, max=4.000, int_like=True",True
+book_55_base_alignment,"len==T, integer-like labels in [0,4]","len=395, T=395, min=0.000, max=4.000, int_like=True",True
+book_55_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=395, T=395, min=0.000, max=3.000, int_like=True",True
+book_55_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=395, T=395, min=0.000, max=4.000, int_like=True",True
+book_84_base_alignment,"len==T, integer-like labels in [0,4]","len=749, T=749, min=0.000, max=4.000, int_like=True",True
+book_84_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=749, T=749, min=0.000, max=4.000, int_like=True",True
+book_84_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=749, T=749, min=0.000, max=4.000, int_like=True",True
+book_103_base_alignment,"len==T, integer-like labels in [0,4]","len=632, T=632, min=0.000, max=4.000, int_like=True",True
+book_103_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=632, T=632, min=0.000, max=4.000, int_like=True",True
+book_103_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=632, T=632, min=0.000, max=4.000, int_like=True",True
+book_113_base_alignment,"len==T, integer-like labels in [0,4]","len=805, T=805, min=0.000, max=4.000, int_like=True",True
+book_113_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=805, T=805, min=0.000, max=4.000, int_like=True",True
+book_113_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=805, T=805, min=0.000, max=3.000, int_like=True",True
+book_120_base_alignment,"len==T, integer-like labels in [0,4]","len=685, T=685, min=0.000, max=4.000, int_like=True",True
+book_120_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=685, T=685, min=0.000, max=4.000, int_like=True",True
+book_120_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=685, T=685, min=0.000, max=4.000, int_like=True",True
+book_175_base_alignment,"len==T, integer-like labels in [0,4]","len=854, T=854, min=0.000, max=4.000, int_like=True",True
+book_175_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=854, T=854, min=0.000, max=4.000, int_like=True",True
+book_175_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=854, T=854, min=0.000, max=4.000, int_like=True",True
+book_345_base_alignment,"len==T, integer-like labels in [0,4]","len=1612, T=1612, min=0.000, max=4.000, int_like=True",True
+book_345_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1612, T=1612, min=0.000, max=4.000, int_like=True",True
+book_345_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1612, T=1612, min=0.000, max=4.000, int_like=True",True
+book_521_base_alignment,"len==T, integer-like labels in [0,4]","len=1208, T=1208, min=0.000, max=4.000, int_like=True",True
+book_521_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1208, T=1208, min=0.000, max=4.000, int_like=True",True
+book_521_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1208, T=1208, min=0.000, max=4.000, int_like=True",True
+book_768_base_alignment,"len==T, integer-like labels in [0,4]","len=1158, T=1158, min=0.000, max=4.000, int_like=True",True
+book_768_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1158, T=1158, min=0.000, max=4.000, int_like=True",True
+book_768_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1158, T=1158, min=0.000, max=4.000, int_like=True",True
+book_1184_base_alignment,"len==T, integer-like labels in [0,4]","len=4608, T=4608, min=0.000, max=4.000, int_like=True",True
+book_1184_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=4608, T=4608, min=0.000, max=4.000, int_like=True",True
+book_1184_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=4608, T=4608, min=0.000, max=4.000, int_like=True",True
+book_1257_base_alignment,"len==T, integer-like labels in [0,4]","len=2293, T=2293, min=0.000, max=4.000, int_like=True",True
+book_1257_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=2293, T=2293, min=0.000, max=4.000, int_like=True",True
+book_1257_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=2293, T=2293, min=0.000, max=4.000, int_like=True",True
+book_1260_base_alignment,"len==T, integer-like labels in [0,4]","len=1852, T=1852, min=0.000, max=4.000, int_like=True",True
+book_1260_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1852, T=1852, min=0.000, max=4.000, int_like=True",True
+book_1260_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1852, T=1852, min=0.000, max=4.000, int_like=True",True
+book_1342_base_alignment,"len==T, integer-like labels in [0,4]","len=1272, T=1272, min=0.000, max=4.000, int_like=True",True
+book_1342_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1272, T=1272, min=0.000, max=4.000, int_like=True",True
+book_1342_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1272, T=1272, min=0.000, max=4.000, int_like=True",True
+book_1513_base_alignment,"len==T, integer-like labels in [0,4]","len=258, T=258, min=0.000, max=4.000, int_like=True",True
+book_1513_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=258, T=258, min=0.000, max=4.000, int_like=True",True
+book_1513_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=258, T=258, min=0.000, max=4.000, int_like=True",True
+book_1661_base_alignment,"len==T, integer-like labels in [0,4]","len=1044, T=1044, min=0.000, max=4.000, int_like=True",True
+book_1661_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1044, T=1044, min=0.000, max=4.000, int_like=True",True
+book_1661_indep_winsize_5_alignment,"len==T, integer-like labels in [0,4]","len=1044, T=1044, min=0.000, max=4.000, int_like=True",True
+winsize_5_block_constancy,0 violations,0/4273,True
+output_files_complete,29,29,True
+indep_overlay_test_count,4,4,True
+indep_overlay_train_count,2,2,True
+ma_window_is_5,5,5,True

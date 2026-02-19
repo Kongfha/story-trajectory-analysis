@@ -1,0 +1,21 @@
+book_id,title,processed_dir,method,k,cluster
+11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,kmeans,5,5
+16,Peter Pan,peter_pan,kmeans,5,3
+35,The Time Machine,time_machine,kmeans,5,3
+36,The War of the Worlds,war_worlds,kmeans,5,3
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,strange_case_dr_jekyll,kmeans,5,3
+55,The Wonderful Wizard of Oz,wonderful_wizard_oz,kmeans,5,1
+84,"Frankenstein; Or, The Modern Prometheus",frankenstein_modern_prometheus,kmeans,5,3
+103,Around the World in Eighty Days,around_world_eighty_days,kmeans,5,1
+113,The Secret Garden,secret_garden,kmeans,5,5
+120,Treasure Island,treasure_island,kmeans,5,2
+175,The Phantom of the Opera,phantom_opera,kmeans,5,2
+345,Dracula,dracula,kmeans,5,2
+521,Robinson Crusoe,robinson_crusoe,kmeans,5,1
+768,Wuthering Heights,wuthering_heights,kmeans,5,2
+1184,The Count of Monte Cristo,count_monte_cristo,kmeans,5,2
+1257,The Three Musketeers,three_musketeers,kmeans,5,2
+1260,Jane Eyre,jane_eyre,kmeans,5,1
+1342,Pride and Prejudice,pride_prejudice,kmeans,5,1
+1513,Romeo and Juliet,romeo_juliet,kmeans,5,4
+1661,The Adventures of Sherlock Holmes,adventures_sherlock_holmes,kmeans,5,3

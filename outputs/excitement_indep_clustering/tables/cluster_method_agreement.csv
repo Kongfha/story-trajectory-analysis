@@ -1,0 +1,13 @@
+row_type,metric,value,feature_cluster,dtw_cluster,count
+metric,ari,0.059334298118668596,,,
+metric,nmi,0.24098709309412497,,,
+contingency,count,,1.0,1.0,5.0
+contingency,count,,1.0,2.0,0.0
+contingency,count,,2.0,1.0,6.0
+contingency,count,,2.0,2.0,0.0
+contingency,count,,3.0,1.0,6.0
+contingency,count,,3.0,2.0,0.0
+contingency,count,,4.0,1.0,0.0
+contingency,count,,4.0,2.0,1.0
+contingency,count,,5.0,1.0,2.0
+contingency,count,,5.0,2.0,0.0
