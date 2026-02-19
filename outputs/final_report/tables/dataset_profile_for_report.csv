@@ -1,0 +1,21 @@
+book_id,title,processed_dir,genre_primary,T,split
+16,Peter Pan,peter_pan,Fantasy,471,test
+113,The Secret Garden,secret_garden,Children's Fiction,805,test
+768,Wuthering Heights,wuthering_heights,Gothic,1158,test
+1342,Pride and Prejudice,pride_prejudice,Romance,1272,test
+11,Alice's Adventures in Wonderland,alice_s_adventures_wonderland,Fantasy,264,train
+35,The Time Machine,time_machine,Sci-Fi,323,train
+36,The War of the Worlds,war_worlds,Sci-Fi,599,train
+43,The Strange Case of Dr. Jekyll and Mr. Hyde,strange_case_dr_jekyll,Horror,255,train
+55,The Wonderful Wizard of Oz,wonderful_wizard_oz,Fantasy,395,train
+84,"Frankenstein; Or, The Modern Prometheus",frankenstein_modern_prometheus,Sci-Fi,749,train
+103,Around the World in Eighty Days,around_world_eighty_days,Adventure,632,train
+120,Treasure Island,treasure_island,Adventure,685,train
+175,The Phantom of the Opera,phantom_opera,Gothic,854,train
+345,Dracula,dracula,Horror,1612,train
+521,Robinson Crusoe,robinson_crusoe,Adventure,1208,train
+1184,The Count of Monte Cristo,count_monte_cristo,Adventure,4608,train
+1257,The Three Musketeers,three_musketeers,Adventure,2293,train
+1260,Jane Eyre,jane_eyre,Gothic,1852,train
+1513,Romeo and Juliet,romeo_juliet,Tragedy,258,train
+1661,The Adventures of Sherlock Holmes,adventures_sherlock_holmes,Mystery,1044,train

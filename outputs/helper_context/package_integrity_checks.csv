@@ -1,0 +1,10 @@
+check,expected,actual,pass
+source_discovery_count_matches_manifest,16,16,True
+ordering_first_four,docs/FINAL_REPORT.md|docs/OTHER_EXPERIMENTS.md|docs/PIPELINE.md|docs/DATA_DICTIONARY.md,docs/FINAL_REPORT.md|docs/OTHER_EXPERIMENTS.md|docs/PIPELINE.md|docs/DATA_DICTIONARY.md,True
+stack_md_exists_nonempty,True,True,True
+stack_source_headers_count,16,16,True
+pdf_exists_nonempty,True,True,True
+pdf_generation_status,ok,ok,True
+zip_exists,True,True,True
+zip_image_count_matches_figure_dir,11,11,True
+no_missing_source_files,True,True,True

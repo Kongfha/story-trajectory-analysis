@@ -1,0 +1,17 @@
+order_index,source_path,bytes,line_count,included
+1,docs/FINAL_REPORT.md,17433,241,True
+2,docs/OTHER_EXPERIMENTS.md,1556,26,True
+3,docs/PIPELINE.md,16427,276,True
+4,docs/DATA_DICTIONARY.md,31432,1020,True
+5,README.md,11984,195,True
+6,docs/EDA_VIZ_PLAN.md,3616,88,True
+7,docs/NOVEL_STACKED_OUTPUT_INTERPRETATION.md,12778,244,True
+8,docs/OUTPUT_INTERPRETATION.md,10207,177,True
+9,outputs/eda/insights.md,1800,32,True
+10,outputs/eda/novel_stacks/peak_chunk_previews_k5.md,18272,184,True
+11,outputs/excitement_indep_clustering/cluster_report.md,4371,82,True
+12,outputs/excitement_indep_clustering/insights.md,2495,41,True
+13,outputs/excitement_linear/interpretation.md,4937,90,True
+14,outputs/excitement_variant_analysis/insights.md,2607,42,True
+15,outputs/pca_analysis/insights.md,6018,62,True
+16,outputs/summary.md,787,13,True

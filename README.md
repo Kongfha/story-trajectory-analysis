@@ -45,6 +45,7 @@ Primary metadata source:
 - `07_excitement_linear_projection.ipynb`: LLM excitement label visualization and linear embedding-to-excitement projection diagnostics.
 - `08_excitement_label_variant_analysis.ipynb`: compares 3 excitement label variants (`base`, `winsize_5`, `indep_winsize_5`) and deep-dives on `indep_winsize_5`.
 - `09_indep_excitement_clustering.ipynb`: unsupervised clustering on `label_indep_winsize_5.npy` using interpretable features plus DTW trajectory-shape validation.
+- `10_final_teacher_guided_semantic_basis_report.ipynb`: reproducible final-report build stage that packages curated figures/tables and writes final narrative docs.
 - `prompts/llm_judge/`: Gemini LLM-judge prompt templates + output schema.
 - `tools/llm_judge/`: helper scripts to build per-book prompt payloads and validate JSON outputs.
 - `data/raw/`: cleaned book text files (abbreviated title filenames).
@@ -55,6 +56,7 @@ Primary metadata source:
 - `outputs/excitement_linear/`: figures, metrics tables, model weights, and interpretation for the linear excitement projection workflow.
 - `outputs/excitement_variant_analysis/`: variant comparison tables/figures, per-variant linear weights, and indep-focused insights.
 - `outputs/excitement_indep_clustering/`: indep-focused clustering tables/figures, compact insights, and extended report with embedded figures.
+- `outputs/final_report/`: curated final-report figures, support tables for claim traceability, and report integrity checks.
 - `docs/`: pipeline, schema dictionary, EDA planning, output interpretation, and Gemini judge prompt docs.
 
 ## Pipeline Run Order
@@ -69,6 +71,7 @@ Run notebooks in this order:
 8. `07_excitement_linear_projection.ipynb` (requires per-book `embeddings.npy` and `label.npy`)
 9. `08_excitement_label_variant_analysis.ipynb` (reuses split from `outputs/excitement_linear/tables/split_manifest.csv`)
 10. `09_indep_excitement_clustering.ipynb` (requires `label_indep_winsize_5.npy` for all books; unsupervised on all 20 novels; `MA_WINDOW=5` for smoothing-derived features)
+11. `10_final_teacher_guided_semantic_basis_report.ipynb` (packages final report artifacts; reads outputs from stages `08` and `09`)
 
 ## Key Outputs for EDA/Insight Work
 Core files:
@@ -156,6 +159,29 @@ Indep excitement clustering outputs:
 - `outputs/excitement_indep_clustering/insights.md`
 - `outputs/excitement_indep_clustering/cluster_report.md`
 
+Final report packaging outputs:
+- `outputs/final_report/figures/fig01_pipeline_overview.png`
+- `outputs/final_report/figures/fig02_variant_comparison_test_metrics.png`
+- `outputs/final_report/figures/fig03_ciw5_model_behavior.png`
+- `outputs/final_report/figures/fig04_ciw5_test_overlays_reference.png`
+- `outputs/final_report/figures/fig05_feature_cluster_map.png`
+- `outputs/final_report/figures/fig06_cluster_genre_composition.png`
+- `outputs/final_report/figures/fig07_cluster_signatures_and_agreement.png`
+- `outputs/final_report/figures/fig08_variant_rank_sensitivity.png`
+- `outputs/final_report/figures/fig09_ciw5_per_book_test_breakdown.png`
+- `outputs/final_report/figures/fig10_contribution_and_use_cases_map.png`
+- `outputs/final_report/figures/fig11_feature_cluster_member_trajectories_ma5.png`
+- `outputs/final_report/tables/dataset_profile_for_report.csv`
+- `outputs/final_report/tables/variant_selection_summary.csv`
+- `outputs/final_report/tables/variant_selection_diagnostics.csv`
+- `outputs/final_report/tables/ciw5_per_book_deepdive.csv`
+- `outputs/final_report/tables/key_results_registry.csv`
+- `outputs/final_report/tables/method_claims_checklist.csv`
+- `outputs/final_report/tables/cluster_summary_for_report.csv`
+- `outputs/final_report/tables/report_integrity_checks.csv`
+- `docs/FINAL_REPORT.md`
+- `docs/OTHER_EXPERIMENTS.md`
+
 ## Known Limitations
 - Clustering settings are baseline defaults (`n_clusters=4`) and not heavily tuned.
 - DTW hierarchical clustering can produce imbalanced clusters.
@@ -166,4 +192,4 @@ Indep excitement clustering outputs:
 1. Expand interactive trajectory views (book-level + cluster-level dashboards).
 2. Add cluster stability checks across seeds, `k` values, and feature subsets.
 3. Build archetype-level summaries with confidence scoring.
-4. Add reproducible report export (tables + figures + narrative markdown).
+4. Extend final-report packaging with sensitivity appendices and versioned claim registries.

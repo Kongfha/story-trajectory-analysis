@@ -71,6 +71,15 @@
 - Adds legend integrity checks for feature-cluster visualizations.
 - Writes outputs under `outputs/excitement_indep_clustering/`, including `insights.md` and `cluster_report.md`.
 
+12. **Final Teacher-Guided Semantic Basis Report Packaging (`10_final_teacher_guided_semantic_basis_report.ipynb`)**
+- Reuses stage-08 variant metrics and stage-09 clustering outputs as source-of-truth evidence.
+- Builds final claim-safe support tables under `outputs/final_report/tables/`, including dataset profile, variant-rank diagnostics, CIW-5 per-book deep-dive metrics, and claim-evidence checklist.
+- Generates curated storytelling figures under `outputs/final_report/figures/`, including variant-rank sensitivity, per-test-book CIW-5 breakdown, and contribution/use-case framing diagrams.
+- Writes final narrative documents:
+  - `docs/FINAL_REPORT.md` (primary narrative)
+  - `docs/OTHER_EXPERIMENTS.md` (Twist/PCA appendix, explicitly secondary)
+- Runs packaging integrity checks (source existence, table/figure completeness, image-link validity, claim-checklist completeness, selected-variant consistency, split consistency, and no em-dash policy in generated docs).
+
 ## Twist Signal Definition
 Given chunk embeddings `e_t` and context window size `k`:
 
@@ -113,6 +122,14 @@ Current defaults in pipeline notebooks:
   - smoothing-derived features: runtime `MA_WINDOW` (current clustering run: `5`)
   - model sweep: `k=2..6`
   - DTW resample length: `L=200`
+- Final report packaging:
+  - method naming:
+    - `NC-1` = No-Context Chunk Teacher Labels
+    - `SW-5` = Shared-Window Labels
+    - `CIW-5` = Context-Window Independent Labels
+  - variant ranking rule: trend-fidelity first on test split (`mae_ma5`, then `mae`, then `rmse`)
+  - selected variant for current run: `CIW-5`
+  - report smoothing policy: `MA_WINDOW=5`
 
 ## Artifact Flow
 File-level flow:
@@ -155,6 +172,27 @@ File-level flow:
 37. `outputs/excitement_indep_clustering/figures/*.png`
 38. `outputs/excitement_indep_clustering/insights.md`
 39. `outputs/excitement_indep_clustering/cluster_report.md`
+40. `outputs/final_report/figures/fig01_pipeline_overview.png`
+41. `outputs/final_report/figures/fig02_variant_comparison_test_metrics.png`
+42. `outputs/final_report/figures/fig03_ciw5_model_behavior.png`
+43. `outputs/final_report/figures/fig04_ciw5_test_overlays_reference.png`
+44. `outputs/final_report/figures/fig05_feature_cluster_map.png`
+45. `outputs/final_report/figures/fig06_cluster_genre_composition.png`
+46. `outputs/final_report/figures/fig07_cluster_signatures_and_agreement.png`
+47. `outputs/final_report/figures/fig08_variant_rank_sensitivity.png`
+48. `outputs/final_report/figures/fig09_ciw5_per_book_test_breakdown.png`
+49. `outputs/final_report/figures/fig10_contribution_and_use_cases_map.png`
+50. `outputs/final_report/figures/fig11_feature_cluster_member_trajectories_ma5.png`
+51. `outputs/final_report/tables/dataset_profile_for_report.csv`
+52. `outputs/final_report/tables/variant_selection_summary.csv`
+53. `outputs/final_report/tables/variant_selection_diagnostics.csv`
+54. `outputs/final_report/tables/ciw5_per_book_deepdive.csv`
+55. `outputs/final_report/tables/key_results_registry.csv`
+56. `outputs/final_report/tables/method_claims_checklist.csv`
+57. `outputs/final_report/tables/cluster_summary_for_report.csv`
+58. `outputs/final_report/tables/report_integrity_checks.csv`
+59. `docs/FINAL_REPORT.md`
+60. `docs/OTHER_EXPERIMENTS.md`
 
 Directory keying:
 - `processed_dir` is the canonical per-book key and is based on abbreviated title slug.
@@ -210,6 +248,24 @@ Common issues and recovery steps:
 - **Stage 09 report image-link mismatch**:
   - Verify all files under `outputs/excitement_indep_clustering/figures/` exist.
   - Re-run `09_indep_excitement_clustering.ipynb` and confirm `cluster_report_embedded_figures_exist` passes in integrity checks.
+- **Missing source artifacts for stage 10 packaging**:
+  - Ensure stage-08 and stage-09 tables exist before running `10_final_teacher_guided_semantic_basis_report.ipynb`.
+  - Required source roots:
+    - `outputs/excitement_variant_analysis/tables/`
+    - `outputs/excitement_indep_clustering/tables/`
+- **Stage 10 selected variant mismatch**:
+  - Inspect `outputs/final_report/tables/variant_selection_summary.csv`.
+  - Confirm ranking is computed from test split with trend-fidelity priority (`mae_ma5`, then `mae`, then `rmse`).
+  - Re-run `10_final_teacher_guided_semantic_basis_report.ipynb` if mismatch persists.
+- **Stage 10 report integrity check failure**:
+  - Inspect `outputs/final_report/tables/report_integrity_checks.csv`.
+  - Verify missing figures/docs paths and rerun stage 10 after repairing source artifacts.
+- **Stage 10 claim-evidence mapping failure**:
+  - Inspect `outputs/final_report/tables/method_claims_checklist.csv`.
+  - Resolve rows with `status != mapped` by fixing metric-key references or source file paths in the stage-10 notebook generator.
+- **Stage 10 image-link resolution failure**:
+  - Inspect `docs/FINAL_REPORT.md` and verify every embedded `../outputs/final_report/figures/*.png` path exists.
+  - Re-run stage 10 and confirm `embedded_image_links_exist` passes in `outputs/final_report/tables/report_integrity_checks.csv`.
 
 ## Extending the Pipeline
 Recommended extension points:

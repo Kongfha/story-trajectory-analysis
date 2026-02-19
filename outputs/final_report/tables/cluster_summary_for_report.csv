@@ -1,0 +1,6 @@
+cluster,n_books,top_feature_1,top_feature_2,top_feature_3,representative_book,dominant_genre,dominant_genre_prop
+1,5,mean_early,p90_y,mean_ma5,1260 | Jane Eyre,Adventure,0.4
+2,6,prop_label_2,prop_label_0,p10_y,768 | Wuthering Heights,Adventure,0.5
+3,6,std_diff,jump_ge_2_rate,mean_abs_diff,1661 | The Adventures of Sherlock Holmes,Sci-Fi,0.5
+4,1,prop_label_4,mean_late,slope_position,1513 | Romeo and Juliet,Tragedy,1.0
+5,2,max_y,range_y,lag1_autocorr,11 | Alice's Adventures in Wonderland,Children's Fiction,0.5

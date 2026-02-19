@@ -680,6 +680,199 @@ Contract notes:
 - Uses relative image links to `figures/*.png`.
 - Must include sections for verdict, diagnostics, feature-cluster interpretation, genre composition, feature-vs-DTW agreement, and practical guidance.
 
+## Final Report Packaging Outputs (`outputs/final_report/`)
+
+### `tables/variant_selection_summary.csv`
+Purpose: deterministic variant-ranking table for final-report selection using trend-fidelity-first criteria.
+
+Columns:
+- `variant_code` (`NC-1`, `SW-5`, `CIW-5`)
+- `variant_name` (str)
+- `split` (`train` or `test`)
+- `rmse` (float)
+- `mae` (float)
+- `mae_ma5` (float)
+- `r2` (float)
+- `corr` (float)
+- `rank_trend_primary` (int)
+
+Selection contract:
+- Primary ranking is applied on `split=test`.
+- Ranking keys are, in order:
+  - `mae_ma5` (ascending)
+  - `mae` (ascending)
+  - `rmse` (ascending)
+- `r2` and `corr` are diagnostics and do not override ranking.
+
+### `tables/dataset_profile_for_report.csv`
+Purpose: explicit corpus profile used in final report narrative and split reproducibility checks.
+
+Columns:
+- `book_id` (int)
+- `title` (str)
+- `processed_dir` (str)
+- `genre_primary` (str; `Unknown` fallback if missing)
+- `T` (int; chunk count)
+- `split` (`train` or `test`)
+
+Contract:
+- One row per book in split manifest.
+- Current run expectation: `20` rows with split counts `16` train and `4` test.
+
+### `tables/variant_selection_diagnostics.csv`
+Purpose: expanded ranking diagnostics showing variant behavior under multiple selection criteria.
+
+Columns:
+- `variant_code` (`NC-1`, `SW-5`, `CIW-5`)
+- `split` (`train` or `test`)
+- `rmse` (float)
+- `mae` (float)
+- `mae_ma5` (float)
+- `r2` (float)
+- `corr` (float)
+- `rank_trend_primary` (int; ranking by `mae_ma5`, `mae`, `rmse`)
+- `rank_raw_error` (int; ranking by `mae`, `rmse`, `mae_ma5`)
+- `rank_corr` (int; ranking by `corr`, `r2`, `mae_ma5`)
+
+Contract:
+- Used to explain rank sensitivity across evaluation objectives.
+- Current selection rule remains `rank_trend_primary` on `split=test`.
+
+### `tables/ciw5_per_book_deepdive.csv`
+Purpose: per-book diagnostics table for selected variant (`CIW-5`) with raw-vs-smoothed error gap.
+
+Columns:
+- `book_id` (int)
+- `title` (str)
+- `split` (`train` or `test`)
+- `T` (int)
+- `mse` (float)
+- `rmse` (float)
+- `mae` (float)
+- `mae_ma` (float; MA(5)-smoothed MAE)
+- `corr` (float)
+- `r2` (float)
+- `error_gap_raw_vs_ma` (float; `mae - mae_ma`)
+
+Contract:
+- Contains all books for the selected variant.
+- Test-subset rows are used for report figure `fig09_ciw5_per_book_test_breakdown.png`.
+
+### `tables/key_results_registry.csv`
+Purpose: claim registry so numeric report statements are source-traceable and reproducible.
+
+Columns:
+- `metric_key` (str)
+- `value` (float or string)
+- `source_file` (str path)
+- `source_row_filter` (str; row selection used to recover value)
+- `notes` (str)
+
+Contract:
+- Every core numeric claim used in `docs/FINAL_REPORT.md` should have a corresponding row.
+
+### `tables/method_claims_checklist.csv`
+Purpose: claim-to-evidence checklist that maps report claims to metric keys or source files.
+
+Columns:
+- `claim_id` (str; stable claim identifier, e.g., `CLM01`)
+- `claim_text` (str)
+- `metric_key_or_source` (str; semicolon-delimited metric keys and/or `path:` references)
+- `status` (`mapped` or `missing`)
+
+Contract:
+- `status` must be `mapped` for all rows in a passing report run.
+- Referenced metric keys should exist in `tables/key_results_registry.csv`.
+
+### `tables/cluster_summary_for_report.csv`
+Purpose: compact cluster summary table for final report narrative.
+
+Columns:
+- `cluster` (int)
+- `n_books` (int)
+- `top_feature_1` (str)
+- `top_feature_2` (str)
+- `top_feature_3` (str)
+- `representative_book` (str)
+- `dominant_genre` (str)
+- `dominant_genre_prop` (float)
+
+Source dependencies:
+- `outputs/excitement_indep_clustering/tables/cluster_profile_summary.csv`
+- `outputs/excitement_indep_clustering/tables/cluster_representatives.csv`
+- `outputs/excitement_indep_clustering/tables/genre_by_feature_cluster_proportions.csv`
+
+### `tables/report_integrity_checks.csv`
+Purpose: packaging-stage integrity checks for final report generation.
+
+Columns:
+- `check` (str)
+- `expected` (str or numeric)
+- `actual` (str or numeric)
+- `pass` (bool)
+
+Checks include:
+- source artifact existence
+- selected variant consistency (`CIW-5` expected for current run)
+- required final-report table existence/count checks
+- curated figure existence/count
+- final document existence
+- embedded image-link validity in `docs/FINAL_REPORT.md`
+- claim-checklist completeness (`method_claims_checklist.csv`)
+- split consistency checks (`16/4` for current run)
+- no em-dash policy checks in generated docs
+
+### `figures/fig01_pipeline_overview.png`
+Purpose: process diagram from data through embeddings, teacher labels, linear projection, clustering, and applications.
+
+### `figures/fig02_variant_comparison_test_metrics.png`
+Purpose: test-split variant comparison panel (RMSE, MAE, MAE(MA5), R2, correlation) with trend-first selection context.
+
+### `figures/fig03_ciw5_model_behavior.png`
+Purpose: CIW-5 diagnostic composite (scatter, residual distribution, optimization behavior).
+
+### `figures/fig04_ciw5_test_overlays_reference.png`
+Purpose: montage/reference panel for CIW-5 test-novel trajectory overlays.
+
+### `figures/fig05_feature_cluster_map.png`
+Purpose: feature-space cluster geometry view used in final narrative.
+
+### `figures/fig06_cluster_genre_composition.png`
+Purpose: genre-by-cluster composition view (counts and proportions).
+
+### `figures/fig07_cluster_signatures_and_agreement.png`
+Purpose: feature-cluster signature heatmap paired with MA(5) member-trajectory archetype visualization (feature branch focus).
+
+### `figures/fig08_variant_rank_sensitivity.png`
+Purpose: rank-sensitivity matrix comparing variant ranking under trend-first, raw-error-first, and correlation-first criteria.
+
+### `figures/fig09_ciw5_per_book_test_breakdown.png`
+Purpose: selected-variant (`CIW-5`) per-test-book diagnostics panel showing raw MAE, MA(5) MAE, and correlation.
+
+### `figures/fig10_contribution_and_use_cases_map.png`
+Purpose: conceptual map from pipeline components to methodological contribution and downstream use cases.
+
+### `figures/fig11_feature_cluster_member_trajectories_ma5.png`
+Purpose: dedicated high-resolution panel of feature-cluster member trajectories using MA(5) smoothing.
+
+## Final Narrative Documents
+
+### `docs/FINAL_REPORT.md`
+Purpose: main final narrative centered on Teacher-Guided Semantic Basis Projection.
+
+Contract notes:
+- Must frame LLM labels as pseudo-ground truth.
+- Must use naming convention `NC-1`, `SW-5`, `CIW-5`.
+- Must explain figure evidence before interpretation for each major figure block.
+- Must keep Twist/PCA details secondary and refer readers to `docs/OTHER_EXPERIMENTS.md`.
+
+### `docs/OTHER_EXPERIMENTS.md`
+Purpose: narrative appendix for secondary experiment tracks (Twist Signal and PCA), separated from the primary final claim.
+
+Contract notes:
+- Should summarize scope, key outputs, and what was learned.
+- Should explicitly state that these tracks are not the central evidence for the final teacher-guided projection claim.
+
 ## PCA Analysis Outputs (`outputs/pca_analysis/`)
 
 ### `tables/book_component_stats.csv`
