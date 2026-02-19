@@ -1,0 +1,61 @@
+book_id,k,n_clusters,cluster,title,author,genre_primary,format,processed_dir,first_publication_year,recognizability_rank,twist_peak_rank
+11,5,4,1,Alice's Adventures in Wonderland,Lewis Carroll,Fantasy,novel,alice_s_adventures_wonderland,1865,2,19
+16,5,4,1,Peter Pan,J. M. Barrie,Fantasy,novel,peter_pan,1911,4,17
+35,5,4,0,The Time Machine,H. G. Wells,Sci-Fi,novella,time_machine,1895,9,13
+36,5,4,2,The War of the Worlds,H. G. Wells,Sci-Fi,novel,war_worlds,1898,16,14
+43,5,4,0,The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,Horror,novella,strange_case_dr_jekyll,1886,17,1
+55,5,4,1,The Wonderful Wizard of Oz,L. Frank Baum,Fantasy,novel,wonderful_wizard_oz,1900,8,16
+84,5,4,0,"Frankenstein; Or, The Modern Prometheus",Mary Wollstonecraft Shelley,Sci-Fi,novel,frankenstein_modern_prometheus,1818,6,11
+103,5,4,2,Around the World in Eighty Days,Jules Verne,Adventure,novel,around_world_eighty_days,1872,11,10
+113,5,4,1,The Secret Garden,Frances Hodgson Burnett,Children's Fiction,novel,secret_garden,1911,15,18
+120,5,4,1,Treasure Island,Robert Louis Stevenson,Adventure,novel,treasure_island,1883,10,9
+175,5,4,0,The Phantom of the Opera,Gaston Leroux,Gothic,novel,phantom_opera,1910,13,3
+345,5,4,0,Dracula,Bram Stoker,Horror,novel,dracula,1897,5,8
+521,5,4,0,Robinson Crusoe,Daniel Defoe,Adventure,novel,robinson_crusoe,1719,20,20
+768,5,4,2,Wuthering Heights,Emily Bronte,Gothic,novel,wuthering_heights,1847,14,6
+1184,5,4,3,The Count of Monte Cristo,Alexandre Dumas,Adventure,novel,count_monte_cristo,1844,18,2
+1257,5,4,3,The Three Musketeers,Alexandre Dumas,Adventure,novel,three_musketeers,1844,19,15
+1260,5,4,0,Jane Eyre,Charlotte Bronte,Gothic,novel,jane_eyre,1847,12,4
+1342,5,4,3,Pride and Prejudice,Jane Austen,Romance,novel,pride_prejudice,1813,7,12
+1513,5,4,1,Romeo and Juliet,William Shakespeare,Tragedy,play,romeo_juliet,1597,1,5
+1661,5,4,2,The Adventures of Sherlock Holmes,Arthur Conan Doyle,Mystery,short-story collection,adventures_sherlock_holmes,1892,3,7
+11,7,4,3,Alice's Adventures in Wonderland,Lewis Carroll,Fantasy,novel,alice_s_adventures_wonderland,1865,2,19
+16,7,4,3,Peter Pan,J. M. Barrie,Fantasy,novel,peter_pan,1911,4,17
+35,7,4,2,The Time Machine,H. G. Wells,Sci-Fi,novella,time_machine,1895,9,13
+36,7,4,1,The War of the Worlds,H. G. Wells,Sci-Fi,novel,war_worlds,1898,16,14
+43,7,4,2,The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,Horror,novella,strange_case_dr_jekyll,1886,17,1
+55,7,4,3,The Wonderful Wizard of Oz,L. Frank Baum,Fantasy,novel,wonderful_wizard_oz,1900,8,16
+84,7,4,2,"Frankenstein; Or, The Modern Prometheus",Mary Wollstonecraft Shelley,Sci-Fi,novel,frankenstein_modern_prometheus,1818,6,11
+103,7,4,1,Around the World in Eighty Days,Jules Verne,Adventure,novel,around_world_eighty_days,1872,11,10
+113,7,4,3,The Secret Garden,Frances Hodgson Burnett,Children's Fiction,novel,secret_garden,1911,15,18
+120,7,4,3,Treasure Island,Robert Louis Stevenson,Adventure,novel,treasure_island,1883,10,9
+175,7,4,2,The Phantom of the Opera,Gaston Leroux,Gothic,novel,phantom_opera,1910,13,3
+345,7,4,2,Dracula,Bram Stoker,Horror,novel,dracula,1897,5,8
+521,7,4,2,Robinson Crusoe,Daniel Defoe,Adventure,novel,robinson_crusoe,1719,20,20
+768,7,4,1,Wuthering Heights,Emily Bronte,Gothic,novel,wuthering_heights,1847,14,6
+1184,7,4,0,The Count of Monte Cristo,Alexandre Dumas,Adventure,novel,count_monte_cristo,1844,18,2
+1257,7,4,0,The Three Musketeers,Alexandre Dumas,Adventure,novel,three_musketeers,1844,19,15
+1260,7,4,1,Jane Eyre,Charlotte Bronte,Gothic,novel,jane_eyre,1847,12,4
+1342,7,4,0,Pride and Prejudice,Jane Austen,Romance,novel,pride_prejudice,1813,7,12
+1513,7,4,3,Romeo and Juliet,William Shakespeare,Tragedy,play,romeo_juliet,1597,1,5
+1661,7,4,2,The Adventures of Sherlock Holmes,Arthur Conan Doyle,Mystery,short-story collection,adventures_sherlock_holmes,1892,3,7
+11,11,4,1,Alice's Adventures in Wonderland,Lewis Carroll,Fantasy,novel,alice_s_adventures_wonderland,1865,2,19
+16,11,4,1,Peter Pan,J. M. Barrie,Fantasy,novel,peter_pan,1911,4,17
+35,11,4,3,The Time Machine,H. G. Wells,Sci-Fi,novella,time_machine,1895,9,13
+36,11,4,0,The War of the Worlds,H. G. Wells,Sci-Fi,novel,war_worlds,1898,16,14
+43,11,4,1,The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,Horror,novella,strange_case_dr_jekyll,1886,17,1
+55,11,4,1,The Wonderful Wizard of Oz,L. Frank Baum,Fantasy,novel,wonderful_wizard_oz,1900,8,16
+84,11,4,3,"Frankenstein; Or, The Modern Prometheus",Mary Wollstonecraft Shelley,Sci-Fi,novel,frankenstein_modern_prometheus,1818,6,11
+103,11,4,0,Around the World in Eighty Days,Jules Verne,Adventure,novel,around_world_eighty_days,1872,11,10
+113,11,4,1,The Secret Garden,Frances Hodgson Burnett,Children's Fiction,novel,secret_garden,1911,15,18
+120,11,4,2,Treasure Island,Robert Louis Stevenson,Adventure,novel,treasure_island,1883,10,9
+175,11,4,0,The Phantom of the Opera,Gaston Leroux,Gothic,novel,phantom_opera,1910,13,3
+345,11,4,3,Dracula,Bram Stoker,Horror,novel,dracula,1897,5,8
+521,11,4,3,Robinson Crusoe,Daniel Defoe,Adventure,novel,robinson_crusoe,1719,20,20
+768,11,4,2,Wuthering Heights,Emily Bronte,Gothic,novel,wuthering_heights,1847,14,6
+1184,11,4,0,The Count of Monte Cristo,Alexandre Dumas,Adventure,novel,count_monte_cristo,1844,18,2
+1257,11,4,1,The Three Musketeers,Alexandre Dumas,Adventure,novel,three_musketeers,1844,19,15
+1260,11,4,0,Jane Eyre,Charlotte Bronte,Gothic,novel,jane_eyre,1847,12,4
+1342,11,4,2,Pride and Prejudice,Jane Austen,Romance,novel,pride_prejudice,1813,7,12
+1513,11,4,2,Romeo and Juliet,William Shakespeare,Tragedy,play,romeo_juliet,1597,1,5
+1661,11,4,0,The Adventures of Sherlock Holmes,Arthur Conan Doyle,Mystery,short-story collection,adventures_sherlock_holmes,1892,3,7
